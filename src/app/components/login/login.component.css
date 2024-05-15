@@ -1,0 +1,36 @@
+.login-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-control input {
+  width: 480px;
+  height: 48px;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 16px;
+}
+
+.form button {
+  height: 48px;
+  border-radius: 4px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+}
